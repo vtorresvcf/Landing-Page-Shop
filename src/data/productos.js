@@ -17,6 +17,7 @@ export const productos = [
       "Un smartphone de última generación con una cámara impresionante y una batería de larga duración.",
     imagen: movil,
     precio: "310€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -25,6 +26,7 @@ export const productos = [
       "Una laptop ligera y potente, perfecta para trabajar desde cualquier lugar.",
     imagen: laptop,
     precio: "650€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -33,6 +35,7 @@ export const productos = [
       "Auriculares inalámbricos con cancelación de ruido y una excelente calidad de sonido.",
     imagen: auriculares,
     precio: "40€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -41,6 +44,7 @@ export const productos = [
       "Un reloj inteligente con monitoreo de salud y notificaciones en tiempo real.",
     imagen: reloj,
     precio: "212€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -49,6 +53,7 @@ export const productos = [
       "Cámara digital de alta resolución con múltiples modos de disparo y grabación de video en 4K.",
     imagen: camara,
     precio: "481€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -57,6 +62,7 @@ export const productos = [
       "Tablet con pantalla de alta resolución y gran capacidad de almacenamiento.",
     imagen: tablet,
     precio: "300€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -64,6 +70,7 @@ export const productos = [
     descripcion: "Altavoz con asistente virtual integrado y control por voz.",
     imagen: altavoz,
     precio: "84€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -72,6 +79,7 @@ export const productos = [
       "Teclado mecánico con retroiluminación RGB y teclas personalizables.",
     imagen: teclado,
     precio: "95€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -80,6 +88,7 @@ export const productos = [
       "Monitor UltraWide con alta resolución y excelente reproducción de colores.",
     imagen: monitor,
     precio: "200€",
+    cantidad: 1,
   },
   {
     id: Math.random().toString(36).slice(2),
@@ -88,6 +97,7 @@ export const productos = [
       "Mochila resistente al agua con múltiples compartimentos para laptop y accesorios.",
     imagen: mochila,
     precio: "62€",
+    cantidad: 1,
   },
 ];
 

@@ -12,8 +12,10 @@
 
 .jumbotron {
   height: auto;
-  background-color: rgb(184, 179, 179);
+  background-color: black;
+  color: white;
   padding: 3rem 2rem;
+  border-radius: 1rem;
 }
 
 .card {
@@ -41,10 +43,47 @@
   min-width: 80%;
 }
 
-.contain-Carrito {
+.container-carrito {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20rem;
+  flex-direction: column;
+
   min-height: 20rem;
+}
+
+.container-productos-carrito {
+  min-width: 35rem;
+  display: flex;
+  border: 2px solid black;
+  flex-wrap: nowrap;
+
+  height: 100px;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.imagen-carrito {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.texto-producto-carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  width: 50%;
+}
+
+.container-input {
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar bg-dark navbar-dark navbar-expand-sm bg-body-tertiary px-4">
           <div className="container-fluid ">
             <a className="navbar-brand nav-link " href="#">
-              Start Bootstrap
+              Tienda online de productos
             </a>
 
             <button

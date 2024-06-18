@@ -1,7 +1,7 @@
 import React from "react";
 import { TbShoppingBagPlus } from "react-icons/tb";
 
-const Card = ({ producto, setSuma, manejarSeleccion }) => {
+const Card = ({ producto, manejarSeleccion }) => {
   const { titulo, descripcion, imagen, precio } = producto;
 
   return (
