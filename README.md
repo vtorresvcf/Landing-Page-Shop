@@ -1,9 +1,9 @@
 # Simple Landing Page de una tienda Online
 
 Esta Landing Page nos muestra los productos de la tienda y nos permite añadirlos al carrito de la compra mostrándo en todo momento el total de la compra.
-
+<p align="center">
 ![Shop](https://github.com/user-attachments/assets/08417d59-5f2c-4f1b-80bf-8d0f3bc942e7)
-
+</p>
 
 ## Características:
 - Catálogo de productos: 
