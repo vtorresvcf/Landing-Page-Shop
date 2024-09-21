@@ -26,34 +26,24 @@ const Navbar = () => {
               id="navbarSupportedContent "
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                <form
-                  className="d-flex d-none d-sm-block mt-2 mx-2 px-5"
-                  role="search"
-                >
-                  <input
-                    className="form-control-sm "
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </form>
+               
                 <li className="nav-item ">
-                  <a className=" nav-link " aria-current="page" href="#">
+                  <a className=" nav-link  text-white" aria-current="page" href="#">
                     Home
                   </a>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link text-white" href="#">
                     About
                   </a>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link text-white" href="#">
                     Services
                   </a>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link text-white" href="#">
                     Contact
                   </a>
                 </li>

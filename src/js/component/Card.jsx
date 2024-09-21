@@ -6,8 +6,8 @@ const Card = ({ producto, manejarSeleccion }) => {
 
   return (
     <div className="card mx-auto ">
-      <img src={imagen} className="card-img-top" alt="..." />
-      <div className="card-body">
+      <img src={imagen} className="card-img-top h-50" alt="..." />
+      <div className="card-body d-flex flex-column justify-content-between">
         <h5 className="card-title">{titulo}</h5>
         <p className="card-text">{descripcion}</p>
         <div className="d-flex justify-content-around botones-card">
@@ -18,7 +18,7 @@ const Card = ({ producto, manejarSeleccion }) => {
           >
             Añadir al <TbShoppingBagPlus size={30} />
           </a>
-          <button className="btn btn-dark disabled"> {precio}</button>
+          <div className="btn btn-dark d-flex align-items-center"> $ {precio}</div>
         </div>
       </div>
     </div>

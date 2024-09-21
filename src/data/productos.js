@@ -16,7 +16,7 @@ export const productos = [
     descripcion:
       "Un smartphone de última generación con una cámara impresionante y una batería de larga duración.",
     imagen: movil,
-    precio: "310€",
+    precio: "310",
     cantidad: 1,
   },
   {
@@ -25,7 +25,7 @@ export const productos = [
     descripcion:
       "Una laptop ligera y potente, perfecta para trabajar desde cualquier lugar.",
     imagen: laptop,
-    precio: "650€",
+    precio: "650",
     cantidad: 1,
   },
   {
@@ -34,7 +34,7 @@ export const productos = [
     descripcion:
       "Auriculares inalámbricos con cancelación de ruido y una excelente calidad de sonido.",
     imagen: auriculares,
-    precio: "40€",
+    precio: "40",
     cantidad: 1,
   },
   {
@@ -43,7 +43,7 @@ export const productos = [
     descripcion:
       "Un reloj inteligente con monitoreo de salud y notificaciones en tiempo real.",
     imagen: reloj,
-    precio: "212€",
+    precio: "212",
     cantidad: 1,
   },
   {
@@ -52,7 +52,7 @@ export const productos = [
     descripcion:
       "Cámara digital de alta resolución con múltiples modos de disparo y grabación de video en 4K.",
     imagen: camara,
-    precio: "481€",
+    precio: "481",
     cantidad: 1,
   },
   {
@@ -61,7 +61,7 @@ export const productos = [
     descripcion:
       "Tablet con pantalla de alta resolución y gran capacidad de almacenamiento.",
     imagen: tablet,
-    precio: "300€",
+    precio: "300",
     cantidad: 1,
   },
   {
@@ -69,7 +69,7 @@ export const productos = [
     titulo: "Altavoz Inteligente",
     descripcion: "Altavoz con asistente virtual integrado y control por voz.",
     imagen: altavoz,
-    precio: "84€",
+    precio: "84",
     cantidad: 1,
   },
   {
@@ -78,7 +78,7 @@ export const productos = [
     descripcion:
       "Teclado mecánico con retroiluminación RGB y teclas personalizables.",
     imagen: teclado,
-    precio: "95€",
+    precio: "95",
     cantidad: 1,
   },
   {
@@ -87,7 +87,7 @@ export const productos = [
     descripcion:
       "Monitor UltraWide con alta resolución y excelente reproducción de colores.",
     imagen: monitor,
-    precio: "200€",
+    precio: "200",
     cantidad: 1,
   },
   {
@@ -96,7 +96,7 @@ export const productos = [
     descripcion:
       "Mochila resistente al agua con múltiples compartimentos para laptop y accesorios.",
     imagen: mochila,
-    precio: "62€",
+    precio: "62",
     cantidad: 1,
   },
 ];

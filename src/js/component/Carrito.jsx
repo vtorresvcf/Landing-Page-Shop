@@ -1,9 +1,12 @@
 import React from "react";
 
 const Carrito = ({ carrito, setisValueCarrito }) => {
+
+  const total = carrito.reduce((acc, item) => acc + item.precio * item.cantidad,0)
+  
   return (
     <div className="container-carrito">
-      <h1 className="text-center d.inline ">Productos del carrito</h1>
+      <h1 className="text-center d.inline ">Carrito de compra</h1>
       {carrito.map((producto, key) => (
         <>
           {" "}
@@ -16,7 +19,7 @@ const Carrito = ({ carrito, setisValueCarrito }) => {
               <h5> {producto.titulo} </h5>
               <p className="text-success fw-bold m-0">
                 {" "}
-                Precio: {producto.precio}{" "}
+                Precio: {producto.precio}
               </p>
             </div>
 
@@ -32,16 +35,23 @@ const Carrito = ({ carrito, setisValueCarrito }) => {
                 value={producto.cantidad}
               />
             </div>
+            
           </div>
+          
         </>
       ))}
+      
+      <div className="w-100 bg-success rounded m-5">
       <button
         type="button"
-        className="btn btn-dark btn-lg btn-block mt-5 mx-auto"
+        className="btn btn-primary btn-block w-50 "
         onClick={() => setisValueCarrito(false)}
       >
         Volver y añadir más productos
       </button>
+      <button className="btn btn-dark w-50">Total: ${total}</button>
+      </div>
+
     </div>
   );
 };

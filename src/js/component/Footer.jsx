@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className="footerStyle ">
       <img className="imageFooter" src={image} />
-      <h1>Vicente Torres</h1>
-      <p>Página web realizada para el proyecto de Landing Page con React.</p>
+      <h1 className="my-4">Vicente Torres</h1>
+      <h4>&#123; Programador Full Stack &#125;</h4>
     </div>
   );
 };

@@ -31,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 6rem;
+  font-family: serif;
 }
 
 .imageFooter {
@@ -57,11 +58,10 @@
   display: flex;
   border: 2px solid black;
   flex-wrap: nowrap;
-
   height: 100px;
   align-items: center;
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 0.5rem 0 ;
 }
 
 .imagen-carrito {
