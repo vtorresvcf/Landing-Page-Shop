@@ -4,6 +4,9 @@ Esta Landing Page nos muestra los productos de la tienda y nos permite añadirlo
 
 ![Shop](https://github.com/user-attachments/assets/08417d59-5f2c-4f1b-80bf-8d0f3bc942e7)
 
+<p align="center">
+  <img src="[URL_DEL_GIF](https://github.com/user-attachments/assets/08417d59-5f2c-4f1b-80bf-8d0f3bc942e7)" alt="Descripción del GIF">
+</p>
 
 ## Características:
 - Catálogo de productos: 
